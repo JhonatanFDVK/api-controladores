@@ -1,1 +1,55 @@
+# ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dependências do NuGet
+# Ignore o diretório de pacotes NuGet local
+.nuget/
+
+# Pasta de build
+bin/
+obj/
+
+# Arquivos temporários e de cache
 .vs/
+.vs2019/
+.vs2017/
+.idea/
+
+# Arquivos específicos de IDE
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.db
+
+# Configuração de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Arquivos de configuração do Docker
+docker-compose.override.yml
+
+# Arquivos de pacotes de dependências
+package-lock.json
+yarn.lock
+
+# Arquivos do Entity Framework Core
+Migrations/
+
+# Arquivos de teste
+TestResults/
+
+# Arquivos do ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Ignorar a pasta wwwroot se você não quiser versionar arquivos estáticos (caso use)
+# wwwroot/
+
+# Ignorar arquivos temporários de build (caso não precise versioná-los)
+/dist/
